@@ -1,0 +1,72 @@
+body{
+	height: 1000px;
+	width: 700px;
+	display: inline-block;
+	background-color: lightgrey;
+
+
+}
+
+
+#Canvas{
+	background-color: white;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 500px;
+	width: 500px;
+	display: inline-block;
+	line-height: 0;
+}
+#Colorboard{
+	background-color: white;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 500px;
+	width: 150px;
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: 0px;
+    vertical-align: top;
+
+}
+
+#Header{
+	background-color: lightblue;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 80px;
+	width: 685px;
+	display: inline-block;
+	margin:center;
+	margin-bottom: 25px;
+	text-align: center;	 
+	margin-top: 2px; 
+
+}
+
+.Colors{
+	display: block;
+	margin-top: 8px;
+	margin-left: 15px;
+	height: 90px;
+    width: 120px;
+}
+
+#Blue{
+	background-color: blue;
+}
+#Orange{
+	background-color: orange;
+}
+#Black{
+	background-color: black;
+}
+#Pink{
+	background-color: pink;
+}
+#Green{
+	background-color: green;
+}
+.pixel{   
+	width: 10px;
+    height: 10px;
+    display: inline-block;
+    
+}
